@@ -172,6 +172,7 @@ h2 {
 }
 
 .animationOn {
+    transform: rotate(-90deg);
     animation: 1.5s rotate linear forwards;
 }
 
