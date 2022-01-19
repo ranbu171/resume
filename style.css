@@ -439,6 +439,9 @@ header img {
 
 @media screen and (max-width: 620px){
     
+    .experience p{
+        width: 90%;
+    }
     #headerName {
         display: block;
         color: transparent;
@@ -472,7 +475,9 @@ header img {
         line-height: 50px;
         background-color: #0c4941b4;
     }
-
+    .languages ul {
+        padding: 0;
+    }
     .languages ul li{
         display: flex;
         align-items: center;
