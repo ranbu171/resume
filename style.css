@@ -158,7 +158,7 @@ h2 {
 .skills ul li div {
     position: absolute;
     z-index: 10;
-    transform: rotate(-90deg);
+    /* transform: rotate(-90deg); */
     justify-self: center;
     align-self: center;
     align-items: center;
@@ -168,49 +168,49 @@ h2 {
     height: 110px;
     border-radius: 50%;
     border: 7px solid #cbf7f1;
-    border-top-color: transparent;     
+    border-left-color: transparent;     
 }
 
 .animationOn {
-    transform: rotate(-90deg);
+    /* transform: rotate(0deg); */
     animation: 1.5s rotate linear forwards;
 }
 
 @keyframes rotate {
     0%{
-        transform: rotate(-90deg);
+        transform: rotate(0deg);
     }
     33.4% {
-        border-left-color: #cbf7f1;
+        border-top-color: #cbf7f1;
         border-bottom-color: #cbf7f1;
         border-right-color: #cbf7f1;
 
     }
     33.5% {
-        border-bottom-color: #cbf7f1;
+        border-top-color: #cbf7f1;
         border-right-color: #cbf7f1;
-        border-left-color: transparent;
+        border-bottom-color: transparent;
     }
     66.6%{
-        border-bottom-color: #cbf7f1;
+        border-top-color: #cbf7f1;
         border-right-color: #cbf7f1;
-        border-left-color: transparent;
+        border-bottom-color: transparent;
     }
     66.7%{
-        border-left-color: transparent;
+        border-right-color: transparent;
         border-bottom-color: transparent;
-        border-right-color: #cbf7f1;
+        border-top-color: #cbf7f1;
     }
     98%{
-        border-right-color: #cbf7f1;
-        border-left-color: transparent;
+        border-top-color: #cbf7f1;
+        border-right-color: transparent;
         border-bottom-color: transparent;
     }
     100% {
         border-right-color: transparent;
-        border-left-color: transparent;
+        border-top-color: transparent;
         border-bottom-color: transparent;
-        transform: rotate(180deg);
+        transform: rotate(270deg);
     }
 }
 
