@@ -68,8 +68,8 @@ function addAnimation () {
     // skills animation 
     if (!animationDivs[7].className.includes('animationOn')){
         if (window.scrollY >= skillAnimation.offsetTop-100){
-            for (let all in animationDivs){
-                animationDivs[all].classList.add('animationOn');
+            for (i=0; i< animationDivs.length; i++){
+                animationDivs[i].classList.add('animationOn');
             } 
         }
     }

@@ -341,10 +341,35 @@ h2 {
     line-height: 1.5;
     font-weight: bold;
     display: inline-block;
+    margin-top: 0;
     width: 70%;
     padding-top: 10px;
 }
+.experience ul {
+    padding-left: 0;
+    margin: 0 auto;
+    width: 50%;
+}
+.experience li {
 
+    list-style-type: none;
+    text-align: start;
+    color: #228679;
+    font-size: 12px;
+	letter-spacing: 0.1em;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.experience li span {
+    color: #0d332e;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.experience h3 {
+    color: #0c4941;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
 .contact {
     position: relative;
     display: grid;
@@ -443,6 +468,9 @@ header img {
     .experience p{
         width: 90%;
     }
+    .experience ul {
+        width: 90%;
+    }
     #headerName {
         display: block;
         color: transparent;
@@ -462,7 +490,6 @@ header img {
         left: 0;
         top: 0;
         margin: 0 auto;
-        /* display: grid; */
         padding-top: 50px;
         background-color: transparent;
         width: 100%;
@@ -565,7 +592,6 @@ header img {
         left: 0;
         top: 0;
         margin: 0 auto;
-        /* display: grid; */
         padding-top: 50px;
         background-color: transparent;
         width: 100%;
@@ -616,6 +642,8 @@ header img {
         grid-row-gap: 30px;
     
     }
-
+    .experience ul {
+        width: 70%;
+    }
 
 }
