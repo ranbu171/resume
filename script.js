@@ -29,7 +29,7 @@ softSkills.innerText = 'Soft Skills';
 
 const experience = document.createElement('a');
 experience.href = '#experience';
-experience.innerText = 'Дополнительно';
+experience.innerText = 'Опыт';
 
 const contact = document.createElement('a');
 contact.href = '#contact';
