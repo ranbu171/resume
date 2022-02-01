@@ -43,6 +43,17 @@ header {
     background-color: #0c4941;
     text-align: center;
 }
+.fa-bars {
+    display: none;
+    position: absolute;
+    z-index: 90;
+    font-size: 30px;
+    color: white;
+    top: 10px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+}
 
 .header {
     /* line-height: 50px; */
@@ -413,20 +424,29 @@ h2 {
     padding: 0 5px;
     padding-top: 3px;
 }
+.fa-instagram,
+.fa-envelope,
+.fa-mobile-alt,
+.fa-whatsapp,
+.fa-telegram-plane {
+    height: 25px;
+    width: 25px;
+    font-size: 25px;
+    text-align: end;
+    color: white;
+}
+.fa-mobile-alt{
+    text-align: center;
 
+}
+/* fa-mobile-alt"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-telegram-plane"></i> */
 .contact div:nth-child(1) span{
     padding-top: 4px;
 }
 
-header img {
-    display: none;
-    position: absolute;
-    z-index: 90;
-    top: 10px;
-    left: 20px;
-    width: 30px;
-    height: 30px;
-}
+
 
 #headerName {
     display: none;
@@ -479,7 +499,7 @@ header img {
         right: 20px;
     }
 
-    header img {
+    .fa-bars{
         display: block;
     }
 
@@ -582,7 +602,7 @@ header img {
     #headerName {
         display: block;
     }
-    header img {
+    .fa-bars{
         display: block;
     }
     .header {
