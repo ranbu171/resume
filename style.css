@@ -56,7 +56,6 @@ header {
 }
 
 .header {
-    /* line-height: 50px; */
     margin: 0 auto;
     display: grid;
     width: 90%;
@@ -169,7 +168,6 @@ h2 {
 .skills ul li div {
     position: absolute;
     z-index: 10;
-    /* transform: rotate(-90deg); */
     justify-self: center;
     align-self: center;
     align-items: center;
@@ -183,7 +181,6 @@ h2 {
 }
 
 .animationOn {
-    /* transform: rotate(0deg); */
     animation: 1.5s rotate linear forwards;
 }
 
@@ -439,9 +436,7 @@ h2 {
     text-align: center;
 
 }
-/* fa-mobile-alt"></i>
-                <i class="fab fa-whatsapp"></i>
-                <i class="fab fa-telegram-plane"></i> */
+
 .contact div:nth-child(1) span{
     padding-top: 4px;
 }

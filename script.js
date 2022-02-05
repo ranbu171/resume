@@ -65,7 +65,7 @@ function addAnimation () {
 
 
 
-    // skills animation 
+    //animation 
     if (!animationDivs[7].className.includes('animationOn')){
         if (window.scrollY >= skillAnimation.offsetTop-100){
             for (i=0; i< animationDivs.length; i++){
@@ -75,6 +75,7 @@ function addAnimation () {
     }
 }
 
+// burger
 const burgerButton = document.getElementById('headerImg');
 burgerButton.addEventListener('click', showNav);
 
